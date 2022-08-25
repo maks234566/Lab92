@@ -59,5 +59,6 @@ int main() {
         printInfo(*f);
     for (auto& f : figure_array)
         delete f;
+
     return 0;
 }
